@@ -1,0 +1,12 @@
+.Sink {
+    background-color: #b35900;
+    color: white;
+    font-size: 30px;
+    grid-column-start: 2;
+    grid-column-end: span 1;
+    grid-row-start: 1;
+    grid-row-end: span 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

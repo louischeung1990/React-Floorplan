@@ -1,0 +1,31 @@
+.Bedroom {
+    color: white;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bed-1 {
+    background-color: #3366ff;
+    grid-column-start: 1;
+    grid-column-end: span 1;
+    grid-row-start: 1;
+    grid-row-end: span 1;
+}
+
+#bed-2 {
+    background-color: #6666ff;
+    grid-column-start: 1;
+    grid-column-end: span 1;
+    grid-row-start: 3;
+    grid-row-end: span 2;
+}
+
+#bed-3 {
+    background-color: #9999ff;
+    grid-column-start: 3;
+    grid-column-end: span 2;
+    grid-row-start: 4;
+    grid-row-end: span 1;
+}

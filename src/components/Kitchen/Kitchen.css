@@ -1,0 +1,22 @@
+.Kitchen {
+    background-color: #ff9933;
+    color: white;
+    font-size: 30px; 
+    grid-column-start: 4;
+    grid-column-end: span 1;
+    grid-row-start: 1;
+    grid-row-end: span 3;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 1fr 8fr;
+}
+
+.Kitchen-section {
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    grid-row-start: 2;
+    grid-row-end: span 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
